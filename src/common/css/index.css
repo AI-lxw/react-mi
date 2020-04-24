@@ -1,0 +1,29 @@
+html{
+   font-family:'Helvetia Neue','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   -webkit-font-smoothing:antialiased;
+   -moz-osx-font-smoothing:grayscale;
+   -webkit-text-size-adjust: 100%;
+   text-size-adjust: none;
+   color: #333;
+   -webkit-user-select: none;
+   user-select: none;
+   font-size: 13.33333vw;
+
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+li{
+   list-style: none;
+}
+img{
+   vertical-align: top;
+}
+a{
+   text-decoration: none;
+}
+.App{
+   height: 1000px;
+}
