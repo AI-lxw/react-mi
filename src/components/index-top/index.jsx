@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.scss'
+import './css/index.scss'
 class Head extends Component {
     constructor(props) {
         super(props);
@@ -9,7 +9,7 @@ class Head extends Component {
         return ( 
             <header className={'header_top'}>
                 <div className="logo">
-                    <img src={require('../../img/logo.png')} alt=""/>
+                    <img src={require('./img/logo.png')} alt=""/>
                 </div>
                 <div className="search">
                     <i className={'iconfont iconsousuo'}></i>

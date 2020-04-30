@@ -1,0 +1,48 @@
+.header_top{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    height: 0.84rem;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.28rem;
+    color: rgba(0,0,0,.3);
+    .logo{
+        width: 0.5rem;
+        height: 0.32rem;
+        img{
+            width: 100%;
+        }
+    }
+    .search{
+        width: 5.38rem;
+        height: 0.64rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid rgba(0,0,0,.3);
+        line-height: 0.64rem;
+        border-radius: 0.04rem;
+        i{
+            margin: 0 0.18rem;
+        }
+        span{
+            font-size: 0.3rem;
+            
+        }
+    }
+    .login{
+        width: 0.6rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        text-align: center;
+        display: flex;
+        i{
+           
+            font-size: 0.5rem;
+        }
+    }
+}

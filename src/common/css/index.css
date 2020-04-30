@@ -8,7 +8,7 @@ html{
    -webkit-user-select: none;
    user-select: none;
    font-size: 13.33333vw;
-
+   background-color: rgb(245,245,245);
 }
 *{
    margin: 0;

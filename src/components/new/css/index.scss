@@ -1,0 +1,25 @@
+.new{
+    height: 5.3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+    div{
+        width: 3.71rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .left{
+        height: 100%;
+    }
+    .right{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
