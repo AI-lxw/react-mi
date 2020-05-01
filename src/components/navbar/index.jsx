@@ -6,7 +6,11 @@ class Index extends Component {
         this.state = {  }
     }
     render() { 
-        return (  );
+        return ( 
+            <div className="navbar">
+                <div>223322</div>
+            </div>
+         );
     }
 }
  
