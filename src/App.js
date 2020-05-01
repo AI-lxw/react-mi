@@ -6,6 +6,7 @@ import Catalogue from  './components/catalogue';
 import New from './components/new';
 import Activities from './components/activities';
 import Everday from './components/everday';
+import Goods from './components/goods';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <New></New>
       <Activities></Activities>
       <Everday></Everday>
+      <Goods></Goods>
     </div>
   );
 }
