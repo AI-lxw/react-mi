@@ -1,0 +1,30 @@
+.navbar{
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
+    ul{
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        li{
+            width: 100%;
+            height: 100%;
+            a{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                color: #999;
+                i{
+                    font-size: 0.5rem;
+                }
+                span{
+                    font-size: 0.24rem;
+                }
+            }
+        }
+    }
+}

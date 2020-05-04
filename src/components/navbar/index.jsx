@@ -8,7 +8,13 @@ class Index extends Component {
     render() { 
         return ( 
             <div className="navbar">
-                <div>223322</div>
+                <ul>
+                    <li><a className={'active'} href="/"><i className="iconfont iconshouye"></i><span>首页</span></a></li>
+                    <li><a href="/"><i className="iconfont iconfenlei"></i><span>分类</span></a></li>
+                    <li><a href="/"><i className="iconfont iconxingqiu-"></i><span>星球</span></a></li>
+                    <li><a href="/"><i className="iconfont iconweibiaoti--"></i><span>购物车</span></a></li>
+                    <li><a href="/"><i className="iconfont iconyonghu"></i><span>我的</span></a></li>
+                </ul>
             </div>
          );
     }
