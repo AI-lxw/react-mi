@@ -8,6 +8,8 @@ import Activities from './components/activities';
 import Everday from './components/everday';
 import Goods from './components/goods';
 import Navbar from './components/navbar';
+import My from './components/my'
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,7 @@ function App() {
       <Everday></Everday>
       <Goods></Goods>
       <Navbar></Navbar>
+      <My></My>
     </div>
   );
 }

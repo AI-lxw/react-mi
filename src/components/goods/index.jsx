@@ -10,7 +10,7 @@ class Index extends Component {
             <div className="goods">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="/">
                             <img src={require('./img/1.jpg')} alt=""/>
                             <div className="name">小米10 Pro</div>
                             <div className="description">小米10 Pro豪华</div>
@@ -21,7 +21,7 @@ class Index extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="/">
                             <img src={require('./img/2.jpg')} alt=""/>
                             <div className="name">小米10 Pro</div>
                             <div className="description">12小米10 Pro</div>
